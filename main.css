@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --green_light: #10B981;
+    --light_greay: #D5D4D8;
+    --dark_Blue: #1F2937;
+    --darker_Blue: #2a394b;
+    --sahdow_Blue: #15202e;
+    --Blue: #12eba2;
+    --margin-lefft: 40px;
+    --padding-top: 80px;
+    --margin-right: 40px;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.big_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--green_light);
+    width: 550px;
+    height: 550px;
+}
+
+.app_container {
+    width: 400px;
+    height: 400px;
+    background-color: var(--dark_Blue);
+    padding: 50px;
+}
+
+.head_t {
+    width: 354px;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    color: var(--light_greay);
+    text-align: start;
+}
+
+.title {
+    width: 354px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    text-align: start;
+    color: var(--green_light);
+}
+
+.small_title {
+    line-height: 28px;
+    color: var(--light_greay);
+    letter-spacing: 0.065em;
+}
+
+.btn {
+    margin-top: 30px;
+    font-size: 15px;
+    border: none;
+    color: #fff;
+    width: 200px;
+    border-radius: 6px;
+    height: 35px;
+    background-color: var(--green_light);
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: var(--Blue);
+    color: #15202e;
+}
+
+hr {
+    margin-top: 40px;
+    border: 1px solid var(--green_light);
+    margin-bottom: 50px;
+}
+
+.passContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+input {
+    text-align: center;
+    width: 160px;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    color: var(--green_light);
+    margin-bottom: 2px;
+
+}
+
+.black {
+    padding: 10px;
+    background-color: var(--darker_Blue);
+    width: 180px;
+    color: var(--Blue);
+}
+
+.black:hover {
+    background-color: var(--sahdow_Blue);
+    color: var(--green_light);
+}
